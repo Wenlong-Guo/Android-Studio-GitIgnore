@@ -20,6 +20,7 @@ gen/
 out/
 /*/build/
 /*/*/build/
+
 #  Uncomment the following line in case you need and you don't have the release build type files in your app
 # release/
 
@@ -90,11 +91,26 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 
-
 # OS
 .DS_Store
 ehthumbs.db
 Icon?
 Thumbs.db
+._*
+.Spotlight-V100
+.Trashes
+
+# Dokka-Generated Files
+*.html
+*.css
+/*/dokka
+dokka/
+
+#NDK
+obj/
+jniLibs
+
+# Signing files
+.signing/
 
 ```
