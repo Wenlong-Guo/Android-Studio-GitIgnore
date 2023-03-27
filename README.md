@@ -1,7 +1,3 @@
-# Android-Studio-GitIgnore
- .gitignore for Android Studio
-
-```
 # Built application files
 *.apk
 *.aar
@@ -90,8 +86,8 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 
-
-# OSX files
+# OS
 .DS_Store
-
-```
+ehthumbs.db
+Icon?
+Thumbs.db
